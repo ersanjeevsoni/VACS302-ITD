@@ -1,0 +1,35 @@
+10/09/24
+Introduction of Web
+History of Internet
+Understanding of HTML
+Basic Structure of HTML Web Page
+
+13/09/24
+Basic Elements in HTML
+Heading 
+Paragraph
+Link
+Image
+Break and Horizontal
+Text Formatting Elements
+
+17/09/24
+List 
+Table
+
+20/09/24
+Types of style - inline, internal, external
+Selector - Universal, element, Class and id
+
+27/9/24
+Frameset, HTML Entities, Meta Tag
+
+1/10/24
+Frameset, Form and assignment 
+
+4/10/24
+Git Hub
+8/10/24
+Giut Hub
+16/10/24
+CSS

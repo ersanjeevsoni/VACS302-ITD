@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector | Style | Types of CSS</title>
+    <style>
+        /* universal selector  */
+        *{
+            color: aqua
+        }
+
+        /* element selector */
+        h1{color: brown !important;}
+
+        /* class and id selector */
+        .heading{
+            color: bisque; text-align: center;
+        }
+        #para{
+            color: red;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 style="color: blue;">Welcome on my page!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate laudantium esse perferendis voluptates facere ipsam voluptatibus, reiciendis expedita! Est aliquid distinctio commodi ad, velit cupiditate! Eligendi consequatur officiis eum aliquam.</p>
+
+    <h2 class="heading">Heading 02</h2>
+    <span class="heading">does not move in the center or does not follow align property because it is inline element</span>
+    <h3 class="heading">Heading 03</h3>
+    <p id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt labore delectus excepturi debitis nostrum tempora, libero explicabo, non dolores repellat illo porro aliquam temporibus blanditiis iusto ut amet voluptate beatae.</p>
+    <table border="1" align="center">
+        <tr>
+            <th colspan="6">Time Table</th>
+        </tr>
+        <tr>
+            <td rowspan="6">Hours</td>
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td>Web</td>
+            <td>Thu</td>
+            <td>Fri</td>
+        </tr>
+
+        <tr>
+            <!-- <td>Hours</td> -->
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Arts</td>
+        </tr>
+
+        <tr>
+            <!-- <td>Hours</td> -->
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Arts</td>
+        </tr>
+
+        <tr align="center">
+            <!-- <td>Hours</td> -->
+            <td colspan="5">Lunch</td>
+        </tr>
+
+        <tr>
+            <!-- <td>Hours</td> -->
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td colspan="2" rowspan="2">Project</td>
+            <!-- <td>Project</td> -->
+        </tr>
+
+        <tr>
+            <!-- <td>Hours</td> -->
+            <td>Math</td>
+            <td>Science</td>
+            <td>Math</td>
+            <!-- <td colspan="2">Project</td> -->
+            <!-- <td>Project</td> -->
+        </tr>
+    </table>
+</body>
+</html>
