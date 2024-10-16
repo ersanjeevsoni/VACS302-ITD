@@ -1,0 +1,25 @@
+/* body{ background-image: url('./images/body_bkg.jpg');}
+body{background-repeat: no-repeat;}
+body{ background-position: top right;}
+body{ background-size:cover ;}
+body{ background-color: #145CA6;} */
+
+body {
+    background: url('./images/bkg.png') #E8E7EA repeat-x right 0;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-shadow: 1px 1px 2px #F04;
+    text-indent: 20px;
+    color: blue;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20px;
+    font-weight:400;
+    font-style: italic;
+ line-height: 30px;  
+}
