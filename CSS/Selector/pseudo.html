@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Elements & Classes</title>
+    <style>
+        *{
+            margin: 0; padding: 0; box-sizing: border-box;
+        }
+
+        p::first-letter{
+            font-size: larger; color: red;
+        }
+        p::after{
+            content: 'read more'; color: red; background-color: aqua; border-radius:20px; padding: 5px 15px ;
+        }
+        p::first-line{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, doloribus? Possimus, et aut! Officiis, iure explicabo nesciunt, esse dignissimos labore et odit repudiandae ipsa distinctio, consequuntur dolore ullam amet harum.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur asperiores dolorem expedita. Suscipit officia porro laudantium optio natus, esse ex libero enim quae ab sunt. Odio voluptatem praesentium magnam facere.</p>
+
+</body>
+</html>

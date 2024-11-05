@@ -33,3 +33,10 @@ Git Hub
 Giut Hub
 16/10/24
 CSS-bkg, font, text
+18/10/24
+htMl iframe, progress bar, audio and video, google and youtumbe embed in webapge
+22/10/24
+Revision cause of internal ST01
+05/11/24
+CSS Selector
+CSS Layout

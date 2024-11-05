@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* universal selector */
+        *{ margin: 0; padding: 0; box-sizing: border-box;}
+        /* simple selectors */
+    body{ background-color: aqua;}
+    /* p{ color: red;} */
+    /* .para{ background-color: antiquewhite; margin: 10px 0px;}
+    #para{ color:red} */
+    /* combinators */
+    /* Descendant combinator (space) */
+    /* div p{
+        font-size: large; color: blue; text-decoration: underline; text-transform: uppercase;
+    } */
+/* Child combinator (>) */
+/* div>p{
+    color: blue; background-color: antiquewhite;
+} */
+/* Next sibling combinator (+) */
+/* div+p{
+    color: red; font-size: larger;
+} */
+/* Subsequent-sibling combinator (~) */
+div~p{
+    color: brown; background-color: antiquewhite;
+}
+
+    </style>
+</head>
+<body>
+    <h1 class="para">Hello Worlds!</h1>
+    <div>
+        <h2>Div Direct Child paras</h2>
+        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat, vero distinctio esse quae culpa officia non corrupti mollitia vitae, dolorum ratione aut excepturi possimus laborum itaque repudiandae repellendus autem temporibus?</p>
+
+        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum dolor commodi officiis minus, animi ab dicta. Porro repudiandae ducimus veritatis ipsum suscipit veniam deleniti nesciunt vero, saepe, magni pariatur.</p>
+
+        <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem deleniti, officiis tempora debitis esse blanditiis consectetur sapiente necessitatibus saepe nisi vel rerum animi laborum neque ipsum, asperiores repellendus ea aut!</p>
+<h2>Article Para</h2>
+        <article>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, quam incidunt repudiandae hic quibusdam recusandae. Quisquam aspernatur tenetur rerum pariatur maiores. Eveniet sapiente nesciunt sint ipsa inventore error! Porro, minus.</p>
+        </article>
+    </div>
+    
+    <p> Lorem ipsum dolor sit,amet consectetur adipisicing elit. Obcaecati, itaque minima? Reiciendis ea magnam sed commodi molestiae repellat corporis odio placeat! Eos doloremque iure dolorem odio iusto fugiat possimus commodi.</p>
+
+    <p class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut pariatur dignissimos quasi tempora voluptas molestias incidunt nemo commodi qui minus. Sed atque beatae veniam ratione maiores neque. Obcaecati, accusamus quod!</p>
+    <h2>Sibling Para</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure voluptates in voluptate corrupti tempore officia iusto consequatur minima consequuntur ex distinctio accusamus, quaerat voluptatem error maxime. Quasi fugiat vero quod!</p>
+</body>
+</html>
