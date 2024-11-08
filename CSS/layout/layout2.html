@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout2</title>
+    <style>
+        *{
+            margin: 0; padding: 0; box-sizing: border-box;
+        }
+        main{
+            width: 1200px;
+            height: auto;
+            background-color: rgb(201, 209, 209);
+            margin: 0 auto;
+            padding: 0;
+        }
+        #logo{
+            width:100%;
+            height: 100px;
+            background-color: #999;
+            text-align: center;
+            align-content: center;
+        }
+        header{
+            width: 1200px;
+            height: 200px;
+            background-color: #999;
+            text-align: center;
+            align-content: center;
+            margin: 5px 0;
+        }
+        article{
+            width: 1200px;
+            height: 120px;
+            background-color: #999;
+            text-align: center;
+            align-content: center;
+        }
+        #container{
+            width:1200px;
+            height: 350px;
+            margin: 5px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .box{
+           width: 380px;
+           height: 350px;
+           background-color: #999;
+           text-align: center;
+           align-content: center;
+        }
+         
+        footer{
+            width:1200px;
+        height: 80px;
+        background-color: #999;
+        text-align: center;
+        align-content: center;
+            }
+       
+    </style>
+</head>
+<body>
+   <main><!--main start-->
+    <div id="logo"><h2>Logo</h2></div>
+    <header><h2>Header</h2></header>
+    <article><h2>Input Text Area</h2></article>
+
+    <div id="container">
+        <div class="box"><h2>Box1</h2></div>
+        <div class="box"><h2>Box2</h2></div>
+        <div class="box"><h2>Box3</h2></div>
+    </div>
+
+    <footer><h2>Footer</h2></footer>
+
+   </main><!--main end-->
+</body>
+</html>
