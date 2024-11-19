@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #FFF;
+        }
+    main{
+        width: 900px;
+        height: 12000px;
+        margin: 0 auto;
+        background-color: brown;
+       
+
+    }
+
+    #b1{
+        width: 200px;
+        height: 300px;
+        background-color: rgb(229, 124, 20);
+        position: absolute;
+        top: 20px;
+        z-index: 1;
+     
+    }
+
+    #b2{
+        width: 230px;
+        height: 300px;
+        background-color: rgb(57, 55, 52);
+        position: absolute;
+        top: 30px;
+        left: 300px;
+        z-index: 0;
+        opacity: .4;
+        /* position: sticky;
+        top: 30px; */
+
+    }
+    p{
+        width: 200px;
+        height: auto;
+        position: absolute;
+        top: 30px;
+        left: 320px;
+    }
+    </style>
+</head>
+<body>
+    <main>
+        
+        <div id="b1"></div>
+        <div id="b2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rem voluptatibus nobis qui eaque tempora ipsam ex necessitatibus ea laboriosam obcaecati autem quae repellendus magnam velit, cupiditate illum mollitia optio.</p>
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus architecto magnam temporibus quasi corporis excepturi commodi est porro possimus, nemo repudiandae suscipit distinctio molestias perspiciatis aliquam sit rem vel facilis.</p>
+       
+    </main>
+    
+   
+
+</body>
+</html>
