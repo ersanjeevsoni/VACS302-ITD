@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops in JS</title>
+</head>
+<body>
+    <script>
+        // for ----------------- intilization, condition then increment
+
+      /*   let num=prompt("Enter the number");
+        for(i=1; i<=10; i++){
+            let table=num*i;
+            document.write(table + "<br>");
+        } */
+  //for--ibn loop over an object
+      /*   let student={
+            fName:"JS",
+            age:23,
+            mob:987897234,
+            eMamil:"js23@gmail.com",
+            isCourseDone:false
+        };
+        // document.write(student.fName);
+
+        for(x in student){
+            document.write(student[x] +"<br>")
+        } */
+
+        // for --in loop over an array
+
+      /*   let studentNames=["JS1","Js2","js3","js4","js5"];
+
+        for(i=0; i<studentNames.length;i++){
+            document.write(studentNames[i] + "<br>");
+        } */
+        // using for -- in loop
+
+       /*  for(i in studentNames){
+            document.write(studentNames[i] + "<br>")
+        } */
+
+        // for -- of loop over array
+       /*  let studentNames=["JS1","Js2","js3","js4","js5"];
+
+        for(x of studentNames){
+            document.write(x + "<br>");
+        } */
+        //for --of loop over string
+
+        let course="JavaScript";
+        for(x of course){
+            document.write(x + "<br>")
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Web Page</title>
+
+
+    <!--   <script>
+        var msg="Hello Js";
+        document.write(msg);
+    </script> -->
+</head>
+
+<body>
+
+    <script>
+
+
+        /*   function add(){
+             var a=100;
+              var b=200;
+             var c=a+b;
+        
+            document.write(c);
+            console.log(c);
+        
+          }
+        add(); */
+
+        // var name="Java Script";
+        // document.write("<h1>name</h1>");
+
+        /* var name="<h1>React</h1>";
+        document.write(name); */
+
+        // ====variable=========
+        // declare and assign
+        /*  var name="vinay"; 
+         console.log(name);
+    
+         var name="Abhishek";
+         console.log(name); */
+
+
+        //variable type assigning in es6
+
+        /*   let num=10;
+           console.log(num);
+      
+          num=20;
+           console.log(num);  */
+
+        /* const add="gzb";
+        console.log(add); */
+
+        //add="Delhi"; //error
+        //console.log(add); // can not reassign the value
+
+        //=========JS Variable Data Value Types====
+        // primitive
+
+       /*  let name = "Abhay";
+        console.log(typeof (name));
+
+        let num = 10;
+        console.log(typeof (num));
+
+        let num1 = "10";
+        console.log(typeof (num1)); // type of string
+
+        let isPassed = true;
+        console.log(typeof (isPassed));
+
+        let my_add;
+        console.log(typeof (my_add));
+
+        let pincode = null;
+        console.log(typeof (pincode)); */
+
+        // non-primitive
+
+        //object- colleciton of key and its value;
+       /*  let my_info = {
+            name: "Abhay", 
+            age: 24, 
+            isMarried: false, 
+            add: "Delhi", 
+            course: null, 
+            pincode: 110094,
+
+        }
+console.log(my_info.name);
+console.log(my_info.isMarried);
+console.log(my_info.course);
+console.log(my_info.name + " is from " + my_info.add);
+console.log(`${my_info.name} ${my_info.course} ${my_info.pincode}`); */
+
+// refrence type value: function
+
+/* function msg(){
+    alert("Welcome to JS");
+    document.write("Thanks to visit us!");
+}
+msg(); */
+
+/* let student=["Nikhil", 30, "GZB", false];
+console.log(student[0]); */
+
+// an object having all data types of values
+
+let student={
+    name:["Abahy","Nikhil", "Ajay", "Dev"],
+    age:30,
+    add:{
+        
+        area:"karolbag",
+        city:"Delhi",
+        pincode:110095,
+
+    },
+    getinfo:function(){
+        console.log(`${this.name[0]} ${this.name[1]}`);
+        return getinfo(this);
+    }
+}
+console.log(student.name[2]);
+console.log(student.getinfo());
+console.log(student.add.area)
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>
