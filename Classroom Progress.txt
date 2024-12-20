@@ -64,4 +64,8 @@ access object
 17/12/24
 conditional statement
 loops in Js
+
+20/12/24
+Github access
+JS Oral Test
  
