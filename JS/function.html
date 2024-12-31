@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function in JS</title>
+</head>
+<body>
+    <script>
+        function msg(){
+            // alert("Hello JS");
+
+        }
+        msg();
+
+         // function declaration using variable
+
+         let msg1=function(){
+            console.log("Hello Java Script");  
+         }
+         msg1();
+
+         //arrow function or Anonyms function
+
+         let msg2=()=>console.log("Arrown Function in JS");
+         msg2();
+         
+
+         // function with parameters
+
+         function add(a,b){
+            console.log(a+b);
+         }
+         add(10,20);
+
+         // function with default parameters
+       function div(val1=10, val2=2){
+			var div=val1/val2;
+			document.write("division of two numbers is " + div);
+            console.log(`division of two numbers is ${div}`);
+            
+		}
+        // can not assign first para as default para else will get NaN therefore
+        //need to assign default para to val2
+		div(4)
+
+        // function return
+        let sub=function(n1,n2){
+            return (r=n1-n2);
+          console.log(`subtraction of two numbers is`);
+        }
+
+        let op=sub(20,5);
+        console.log(`output of the program is ${r}`);
+        
+     
+
+    </script>
+</body>
+</html>
