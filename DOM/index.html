@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM in JS</title>
+</head>
+<body>
+    <h1 id="demo" class="democlass">.....</h1>
+    <h2 id="demo2"></h2>
+    <p class="para">____</p>
+    <p></p>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+    </ul>
+    <button onclick="msg()">Click on me</button>
+    <script>
+        function msg(){
+            //by ID
+// document.getElementById("demo").innerHTML="Hello JS";
+
+    //by classname
+/* const collection = document.getElementsByClassName("para");
+    collection[0].innerHTML = "Hello World!"; */
+
+
+     // by Tagname
+   /*   let result= document.getElementsByTagName("p")
+    result[0].innerHTML="Thanks";
+    result[0].style.color="red";  */
+
+    // by query selector
+    /* let result=document.querySelector("ul li:nth-child(3)");
+    result.style.backgroundColor="green"; */
+
+
+    // by query selector all
+  /*   let result=document.querySelectorAll("ul li");
+ for(x in result){
+    result[x].style.color="red";
+ } */
+
+ //get attribute
+/*  const element=document.getElementById("demo");
+ let text=element.getAttribute("class");
+ document.getElementById("demo2").innerHTML=text; */
+
+//set attribute
+const element=document.getElementById("demo");
+let className=element.setAttribute("title", "Hello JS");
+
+    }
+
+    </script>
+</body>
+</html>
